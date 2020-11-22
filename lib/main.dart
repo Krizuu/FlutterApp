@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import './games_manager.dart';
+
 void main() {
   runApp(MyApp());
 }
@@ -9,18 +11,10 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       home: Scaffold(
-        appBar: AppBar(
-          title: Text('EasyList'),
-        ),
-        body: Card(
-          child: Column(
-            children: <Widget>[
-              Image.asset('assets/brad.jpg'),
-              Text('Food Paradise')
-            ],
+          appBar: AppBar(
+            title: Text('EasyList'),
           ),
-        ),
-      ),
+          body: GamesManager()),
     );
   }
 }
