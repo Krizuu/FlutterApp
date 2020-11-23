@@ -1,4 +1,4 @@
-# second_app
+# ourboard
 
 A new Flutter project.
 
